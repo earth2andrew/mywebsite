@@ -1,0 +1,19 @@
+.banner {
+  background-color: #4D00FF;
+  COLOR: WHITE;
+  MARGIN top: 75px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#small-xavy {
+  height:600px;
+  width:300px;
+}
+
+#gritter {color:#4D00FF;
+          font-size: 100px;
+}
+
+.bold {font-weight: 900;
+}
