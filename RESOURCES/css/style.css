@@ -1,6 +1,12 @@
+.h1 {
+  background-color:gold;
+  color: black;
+  text-align: center;
+}
+
 .banner {
-  background-color: #4D00FF;
-  COLOR: WHITE;
+  background-color: green;
+  COLOR: white;
   MARGIN top: 75px;
   text-align: center;
   padding: 100px 0;
