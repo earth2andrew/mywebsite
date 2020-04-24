@@ -1,6 +1,12 @@
+.h1 {
+  background-color: blue;
+  color: red;
+  text-align: center;
+}
+
 .banner {
-  background-color: #4D00FF;
-  COLOR: WHITE;
+  background-color: gold;
+  COLOR: black;
   MARGIN top: 75px;
   text-align: center;
   padding: 100px 0;
@@ -11,7 +17,7 @@
   width:300px;
 }
 
-#gritter {color:#4D00FF;
+#gritter {color:green;
           font-size: 100px;
 }
 
