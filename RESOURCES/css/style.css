@@ -29,9 +29,10 @@ header p {
 }
 
 .jumbotron {
-  display: flex;
+   display: flex;
   align-items: center;
-  background-image: url('../images/ellys.jpg');
+  position: initial;
+  background-image: none;
   background-size: cover;
   color: #ffffff;
   height: 615px;
