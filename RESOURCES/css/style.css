@@ -30,15 +30,16 @@ header p {
 
 .jumbotron {
   display: flex;
-  align-items: center bottom;
-  padding: 50px;
+  align-items: center-top;
+  padding: 0px;
+  margin-top: 0px;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: url(../images/ellyspng.png);
-  background-position: 50% 70%;
+  background-position: 50% 40%;
   background-size: 75% 65%;
   color: inherit;
-  height: 615px;
+  height: 650px;
   width: cover;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
