@@ -32,6 +32,8 @@ header p {
   display: flex;
   align-items: center center;
   padding: 100px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-image: url(../images/ellys.jpg);
   background-position: center center;
   background-size: inherit;
