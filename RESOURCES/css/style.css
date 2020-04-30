@@ -32,11 +32,11 @@ header p {
   display: flex;
   justify-content: flex-end;
   align-items: top center;
-  background-attachment: flex;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: url(../images/ellyspng.png);
   background-position: 50% 40%;
-  background-size: 95% 65%;
+  background-size: 100% 65%;
   color: inherit;
   height: 650px;
   width: cover;
@@ -45,7 +45,7 @@ header p {
 
 section .row img {
   margin: 0 0 30px;
-  width: 100%;
+  width: 100%;    
 }
 
 .col-md-6 {
