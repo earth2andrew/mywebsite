@@ -31,32 +31,17 @@ header p {
 .jumbotron {
   display: flex;
   justify-content: flex-end;
-  align-items: center-top;
-  padding: 0px;
-  z-index: -1;
-  top: 0px;
-  left: 0px;
+  align-items: top center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: url(../images/ellyspng.png);
+  top: center;
   background-position: 50% 40%;
   background-size: 75% 65%;
   color: inherit;
   height: 650px;
   width: cover;
   text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-
-.jumbotron h2 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-  color: #fff;
-}
-
-.jumbotron h3 {
-  margin: 0 0 20px;
-  color: #fff;
 }
 
 section .row img {
