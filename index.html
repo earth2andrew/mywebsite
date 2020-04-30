@@ -14,44 +14,57 @@
 <meta property="og:site_name" content="Your awesome title" />
 <script type="application/ld+json">
 {"@type":"WebSite","url":"http://localhost:4000/","name":"Your awesome title","headline":"Your awesome title","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->  
+<!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="./RESOURCES/css/style.css">
-</head>
 <link href="style.css" rel="stylesheet" type="text/css" />
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+</head>
 <body>
-  <!-- Banner Section -->
-  <div class="banner">
-    <img id ="ellys" src="./RESOURCES/images/ellys.jpg" alt="">
-    <img id="small-xavy" src="./RESOURCES/images/logo.jpg" alt="">
-    <p>Here you will be able to follow us on social media, view information about us as well as contact info, order food & merchandise, submit feedback, and apply for positions. We look forward to seeing you soon!</p>
-    <button>Subscribe to stay up to date with our events & merchandise mailing list!</button>
-  </div>
-  <div class="menu">
-    <span>MENU image</span>
-    <p class="bold">This section is dedicated to the menu.</p>
-  </div>
-  <div class="Social">
-    <span class="bold" id="gritter">Social media Title</span>
-    <form action="">
-      <input type="text" />
-      <input type="Submit" value="Submit">
-    </form>
-    <!-- test comment -->
-    <div class="selections">
-      <ul>
-        <li>
-          <span>Specials</span>
-        </li>
-        <li>
-          <span>Order</span>
-        </li>
-        <li>
-          <span>Contact</span>
-        </li>
-      </ul>
+<header class="container">
+  <div class="row">
+    <h1 class ="col-sm-4">Ellys</h1>
+    <nav class="col-sm-8 text-right">
+    <p>Specials<p>
+      <p>Menu<p>
+        <p>Contact<p>
+    </nav>
     </div>
+  </header>
+  <section class="jumbotron">
+    <div class="container">
+      <img src="./resources/images/ellys.jpg" alt="">
+      <div class="row text-center"><a class="btn btn-primary" href="#" role="button">MENU</a></div>
+      </div>
+  </section>
+  <section class="container">
+ <div class="row">
+    <figure class="col-sm-6">
+      <p>Events</p>
+      <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/kitchen.jpg">
+    </figure>
+    <figure class="col-sm-6"><p>Merch</p>
+    <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/woodwork.jpg">
+    </figure>
   </div>
-</body>
+  <div class="row"><figure class="col-sm-6">
+    <p>Coupons</p>
+      <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/gifts.jpg">
+    </figure>
+    <figure class="col-sm-6">
+<p>Feedback</p>
+    <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/antique.jpg"
+    </figure>
+  </div>
+</section>
+<footer class="container">
+  <div class="row">
+    <p class="col-sm-4">&copy; 2020 Incremental Innovations</p>
+    <ul class="col-sm-8">
+      <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"></li>
+        <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg"></li>
+        <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"></li>
+        <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg"></li>
+        </ul></div></footer>
 
-</html>
+</body>
