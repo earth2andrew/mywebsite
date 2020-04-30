@@ -30,10 +30,12 @@ header p {
 
 .jumbotron {
   display: flex;
-  align-items: center;
-  position: initial;
+  align-items: center center;
+  padding: 12%;
+  background-image: "../images/ellys.jpg";
+  background-position: 50% 50%;
   background-size: cover;
-  color: #ffffff;
+  color: inherit;
   height: 615px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
@@ -96,3 +98,4 @@ footer li img {
   width: 32px;
   height: 32px;
 }
+
