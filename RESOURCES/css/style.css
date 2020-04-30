@@ -35,8 +35,8 @@ header p {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-image: url(../images/ellyspng.png);
-  background-position: center center;
-  background-size: 50% 60%;
+  background-position: 50% 70%;
+  background-size: 75% 65%;
   color: inherit;
   height: 615px;
   width: cover;
