@@ -1,6 +1,6 @@
 layout: page
 title: " Full Takeout Menu"
-permalink: https://earth2andrew.github.io/mywebsite/fullmenu.md
+permalink: https://earth2andrew.github.io/mywebsite/fullmenu
 
 <!Doctype html>
 <html>
