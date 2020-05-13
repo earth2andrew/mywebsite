@@ -5,27 +5,36 @@ body{
 
 header {
   padding: 20px 0;
+  background-color: pink;
 }
 
-header .row,
+header .row {
+  display: flex;
+  align-items: center;
+  background-color: pink;
+}
 footer .row {
   display: flex;
   align-items: center;
+  background-color: pink;
 }
 
 header h1 {
   font-weight: 700;
   margin: 0;
+  background-color: pink;
 }
 
 header nav {
   display: flex;
   justify-content: flex-end;
+  background-color: pink;
 }
 
 header p {
   padding: 0 20px;
   margin: 0;
+  background-color: pink;
 }
 
 .jumbotron {
@@ -36,7 +45,7 @@ header p {
   background-repeat: no-repeat;
   background-image: url(../images/ellysfood.jpg);
   background-position: 50% 40%;
-  background-size: 100% 100%;
+  background-size: 86.5% 100%;
   color: inherit;
   height: 650px;
   width: cover;
@@ -44,8 +53,8 @@ header p {
 }
 
 section .row img {
-  margin: 0 0 30px;
-  width: 100%;    
+  margin: 0 0 0px;
+  width: 100%;
 }
 
 .col-md-6 {
@@ -57,7 +66,7 @@ section .row img {
   border: 0px;
   color: black;
   text-shadow: none;
-  background-color: grey;
+  background-color: pink;
 }
 
 .btn.btn-primary:hover {
